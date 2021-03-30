@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="61d77a79-d1f6-47a7-a7d5-ecbe657171b7">
+  <Mod name="SkyModExamples" author="hpgbproductions" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2021-03-30T08:42:25.4501401Z" apiVersion="1.0.0.0" description="">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="Map" path="Assets/_ModAssets_/Map.prefab" />
+      <GameObject name="Persistent Object" path="Assets/_ModAssets_/Persistent Object.prefab" />
+    </GameObjects>
+    <Assets>
+      <Asset path="Assets/AllSkyFree/Cold Sunset/Cold Sunset.mat" />
+      <Asset path="Assets/AllSkyFree/Cold Sunset/Cold Sunset__Cam_0_Front+Z.png" />
+      <Asset path="Assets/AllSkyFree/Cold Sunset/Cold Sunset__Cam_1_Back-Z.png" />
+      <Asset path="Assets/AllSkyFree/Cold Sunset/Cold Sunset__Cam_2_Left+X.png" />
+      <Asset path="Assets/AllSkyFree/Cold Sunset/Cold Sunset__Cam_3_Right-X.png" />
+      <Asset path="Assets/AllSkyFree/Cold Sunset/Cold Sunset__Cam_4_Up+Y.png" />
+      <Asset path="Assets/AllSkyFree/Cold Sunset/Cold Sunset__Cam_5_Down-Y.png" />
+      <Asset path="Assets/Funny/funny.jpg" />
+      <Asset path="Assets/Funny/New Material.mat" />
+    </Assets>
+    <MaterialShaderMap>
+      <Material name="Cold Sunset" shader="Mobile/Skybox" />
+      <Material name="New Material" shader="Standard" />
+    </MaterialShaderMap>
+    <Assemblies>
+      <Assembly name="SkyModExamples-Assembly-CSharp.dll" path="Assets/_ModAssets_/SkyModExamples-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps>
+          <Map name="Skybox Replace Test" description="" path="Assets/_ModAssets_/Map.prefab" allowSandbox="true" />
+        </Maps>
+        <Levels />
+        <Parts />
+        <DesignerPlugins />
+        <MapPlugins />
+        <PersistentObjects>
+          <PersistentObject objectName="Persistent Object" />
+        </PersistentObjects>
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>
